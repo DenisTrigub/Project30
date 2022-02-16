@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 
 void init(int A[], int size)
@@ -42,6 +41,7 @@ void sort(int A[], int size, int uk = 1)
 	}
 }
 
+
 int main()
 {
 	setlocale(LC_ALL, "Russian");
@@ -64,5 +64,6 @@ int main()
 		cout << "\nЕсли хотите продолжить, нажмите 1\n";
 		cin >> a;
 	} while (a == 1);
-
 }
+
+

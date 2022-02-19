@@ -1,4 +1,6 @@
 #include <iostream>
+#include<stdio.h>
+using namespace std;
 void init(int A[], int size)
 {
 	srand(time(NULL));
